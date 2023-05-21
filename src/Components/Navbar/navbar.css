@@ -1,22 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
 .nav-bee {
     background-color: rgb(255, 218, 21);
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-family: 'Sen';
-    padding-left: 1rem;
-    
+
 }
+
 .nav-bee-img img {
     max-width: 100%;
+    transform: scale(130%);
     height: auto;
 }
 
-.nav-bee a{
+.nav-bee a {
     color: black;
     font-size: 10vw;
     font-weight: 700;
     font-style: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-bee {
+        background-color: rgb(255, 218, 21);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Sen';
+
+    }
+
+    .nav-bee-img img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .nav-bee a {
+        color: black;
+        font-size: 10vw;
+        font-weight: 700;
+    }
 }
