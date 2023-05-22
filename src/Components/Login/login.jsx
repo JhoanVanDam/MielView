@@ -21,12 +21,12 @@ class Login extends Component {
 
                     <div className="input-container">
                         <FontAwesomeIcon icon={faUser} style={{ color: "rgb(207, 207, 207)", }} />
-                        <input placeholder="Username" />
+                        <input type="email" placeholder="Username" />
                     </div>
 
                     <div className="input-container">
                         <FontAwesomeIcon icon={faLock} style={{ color: "rgb(207, 207, 207)", }} />
-                        <input placeholder="Password" />
+                        <input type="password" placeholder="Password" />
                     </div>
 
                     <button>Acceder</button>
