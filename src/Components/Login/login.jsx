@@ -5,7 +5,9 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 import loginstyle from "./login.css";
 class Login extends Component {
-
+    style(){
+        console.log({loginstyle});
+    }
     render() {
         return (
             <div className="main">

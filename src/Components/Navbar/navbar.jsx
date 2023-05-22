@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import bee from "../../Resources/Navbar (1).png";
 import estilos from "./navbar.css";
 class Navbar extends Component {
-
+    style(){
+        console.log({estilos});
+    }
     render() {
 
         return (

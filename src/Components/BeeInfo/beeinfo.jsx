@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import beeinfoStyle from "./beeinfo.css";
 class beeinfo extends Component {
-
+    style(){
+        console.log({beeinfoStyle});
+    }
     render() {
         return (
             <div className="beeinfo-main">

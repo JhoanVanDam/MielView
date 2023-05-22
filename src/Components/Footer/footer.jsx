@@ -5,8 +5,12 @@ import 'font-awesome/css/font-awesome.min.css';
 
 
 class beefooter extends Component {
+    style(){
+        console.log({befooterstyle});
+    }
     render() {
         return (
+            
             <div className="footer-main">
                 <div className="footer-icon-media">
                     <ul>
