@@ -10,10 +10,10 @@ class Navbar extends Component {
         return (
             <nav className="nav-bee">
                 <img src={bee} id="bean" alt="Logo"/>
-                <div className="" id="">
+                <div className="" id="si">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Miel App</a>
+                            <a className="nav-link" href="si">Miel App</a>
                         </li>
                     </ul>
                 </div>
