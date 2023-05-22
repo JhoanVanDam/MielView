@@ -7,11 +7,7 @@ class Navbar extends Component {
 
         return (
             <nav className="nav-bee">
-                <a className="nav-bee-a" href="#">
-                    <div className="nav-bee-img">
-                        <img src={bee} id="bean" alt="Logo"/>
-                    </div>
-                </a>
+                <img src={bee} id="bean" alt="Logo"/>
                 <div className="" id="">
                     <ul className="navbar-nav">
                         <li className="nav-item">

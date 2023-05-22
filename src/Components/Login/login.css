@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 10rem;
 
 }
 
@@ -91,12 +92,13 @@
     color: black;
     border: 1px solid #2B3245;
 }
-.login-main input:focus{
+
+.login-main input:focus {
     border-color: gray;
 }
 
 @media screen and (max-width: 900px) {
-    .login-main{
+    .login-main {
         width: auto;
     }
 }
@@ -113,6 +115,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        padding-bottom: 10rem;
     }
 
     .login-main {
@@ -187,9 +190,10 @@
         color: black;
         border: 1px solid #2B3245;
     }
-    .login-main input:focus{
+
+    .login-main input:focus {
         border-color: gray;
     }
-    
+
 
 }
