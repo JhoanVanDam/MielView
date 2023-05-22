@@ -12,7 +12,7 @@ class qr extends Component {
                 Escanea el código QR de tu producto
                 </label>
                 <div className="yellow-container">
-                <img src={camera} id="camera"/>
+                <img src={camera} id="camera" alt="logocamara"/>
                 </div>
                 
             </div>

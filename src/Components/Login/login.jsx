@@ -31,9 +31,9 @@ class Login extends Component {
 
                     <button>Acceder</button>
 
-                    <a href="">Olvidé la contraseña</a>
+                    <a href="#">Olvidé la contraseña</a>
 
-                    <a href="">Registrarse</a>
+                    <a href="#">Registrarse</a>
 
                 </div>
             </div>

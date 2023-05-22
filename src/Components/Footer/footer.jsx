@@ -21,7 +21,7 @@ class beefooter extends Component {
                         <li><i class="fa-brands fa-tiktok " /></li>
                     </ul>
                 </div>
-                <img src={bee} />
+                <img src={bee} alt="beelogo"/>
                 <p>
                     ™ © 2023  X Inc. Todos los derechos reservados, X son marcas comerciales, marcas de servicios o marcas registradas de X, Inc.
                 </p>
