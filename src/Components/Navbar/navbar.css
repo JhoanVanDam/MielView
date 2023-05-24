@@ -21,7 +21,12 @@
     font-size: 10vw;
     font-weight: 700;
     font-style: bold;
-    
+
+}
+
+#a-hidden {
+    all: unset;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {
@@ -45,5 +50,10 @@
         color: black;
         font-size: 10vw;
         font-weight: 700;
+    }
+
+    #a-hidden {
+        all: unset;
+        cursor: pointer;
     }
 }

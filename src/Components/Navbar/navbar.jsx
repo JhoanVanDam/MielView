@@ -9,7 +9,7 @@ class Navbar extends Component {
 
         return (
             <nav className="nav-bee">
-                <img src={bee} id="bean" alt="Logo" />
+                <a href="/" id="a-hidden"><img src={bee} id="bean" alt="Logo" /></a>
                 <div className="" id="si">
                     <ul className="navbar-nav">
                         <li className="nav-item">

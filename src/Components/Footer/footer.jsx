@@ -14,11 +14,11 @@ class beefooter extends Component {
             <div className="footer-main">
                 <div className="footer-icon-media">
                     <ul>
-                        <li><i class="fa-brands fa-facebook" /></li>
-                        <li><i class="fa-brands fa-whatsapp " /></li>
-                        <li><i class="fa-brands fa-twitter" /></li>
-                        <li><i class="fa-brands fa-youtube" /></li>
-                        <li><i class="fa-brands fa-tiktok " /></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" /></a></li>
+                        <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp " /></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter" /></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube" /></a></li>
+                        <li><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok " /></a></li>
                     </ul>
                 </div>
                 <a href="/"><img src={bee} alt="beelogo" /></a>

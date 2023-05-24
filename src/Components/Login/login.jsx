@@ -33,8 +33,9 @@ class Login extends Component {
 
                     <button>Acceder</button>
 
-                    <a href='si'>Olvidé la contraseña</a>
+                    <Link to="/forgot">Olvidé la contraseña</Link>
                     <Link to="/register">Registrarse</Link>
+
                 </div>
             </div>
         );

@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Components/Home/home';
 import Register from './Components/Register/register';
 import Login from './Components/Login/login';
+import Forgot from './Components/OlvideContraseña/forgot';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/forgot" element={<Forgot />} />
       </Routes>
     </div>
 
