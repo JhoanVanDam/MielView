@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter, BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
-
+import { BrowserRouter, BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
+var lol = { Router, Route, Routes };
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

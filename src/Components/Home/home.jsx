@@ -4,7 +4,6 @@ import Login from "../Login/login";
 import Qr from '../Qr/qr';
 import Tabla from '../BeeInfo/beeinfo';
 import Footer from '../Footer/footer';
-import Register from '../Register/register';
 class Home extends Component {
     render() {
         return (

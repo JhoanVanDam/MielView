@@ -3,7 +3,6 @@ import Home from './Components/Home/home';
 import Register from './Components/Register/register';
 import Login from './Components/Login/login';
 import { Routes, Route } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
 
 
 
