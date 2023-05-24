@@ -17,6 +17,10 @@
     line-height: auto;
     text-align: center;
 }
+.footer-main a{
+    all: unset;
+    cursor: pointer;
+}
 
 .footer-icon-media ul {
     display: flex;

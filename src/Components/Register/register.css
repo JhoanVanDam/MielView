@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+    font-family: 'Sen';
+
+}
+
+#bee {
+    max-width: 20%;
+    height: auto;
+}
+
+.main {
+    width: 100%;
+    background-color: rgb(255, 218, 21);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10rem;
+
+}
+
+.login-main {
+    border-radius: 1rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: white;
+}
+
+.login-main * {
+    text-align: center;
+    font-size: x-large;
+}
+
+.login-main label {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.login-main a {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.input-container input {
+    width: 80%;
+    border: unset;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.input-container input::placeholder {
+    text-align: center;
+}
+
+
+.login-main button {
+    all: unset;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    width: 70%;
+    color: white;
+    text-align: center;
+    background: #2B3245;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+    border: 1px solid #2B3245;
+    margin-bottom: 1rem;
+}
+
+.login-main button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #2B3245;
+}
+
+.login-main input:focus {
+    border-color: gray;
+}
+
+@media screen and (max-width: 900px) {
+    .login-main {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #bee {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .main {
+        width: 100%;
+        background-color: rgb(255, 218, 21);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 10rem;
+    }
+
+    .login-main {
+        border-radius: 1rem;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .login-main * {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .login-main label {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .login-main a {
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        text-decoration: none;
+    }
+
+    .input-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: center;
+    }
+
+    .input-container input {
+        width: 80%;
+        border: unset;
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+
+    .input-container input::placeholder {
+        text-align: center;
+    }
+
+
+    .login-main button {
+        all: unset;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        width: 70%;
+        color: white;
+        text-align: center;
+        background: #2B3245;
+        border-radius: 10px;
+        transition: all 0.6s ease;
+        border: 1px solid #2B3245;
+        margin-bottom: 1rem;
+    }
+
+    .login-main button:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid #2B3245;
+    }
+
+    .login-main input:focus {
+        border-color: gray;
+    }
+
+
+}

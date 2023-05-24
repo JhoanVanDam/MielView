@@ -4,9 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 import loginstyle from "./login.css";
+import { Link } from 'react-router-dom';
+
 class Login extends Component {
-    style(){
-        console.log({loginstyle});
+    style() {
+        console.log({ loginstyle });
     }
     render() {
         return (
@@ -31,10 +33,8 @@ class Login extends Component {
 
                     <button>Acceder</button>
 
-                    <a href="si">Olvidé la contraseña</a>
-
-                    <a href="si">Registrarse</a>
-
+                    <a href='si'>Olvidé la contraseña</a>
+                    <Link to="/register">Registrarse</Link>
                 </div>
             </div>
         );
