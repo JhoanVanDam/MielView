@@ -14,11 +14,11 @@ class beefooter extends Component {
             <div className="footer-main">
                 <div className="footer-icon-media">
                     <ul>
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" /></a></li>
-                        <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp " /></a></li>
-                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter" /></a></li>
-                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube" /></a></li>
-                        <li><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok " /></a></li>
+                        <li><a href="https://www.facebook.com/" rel="noreferrer" target="_blank"><i class="fa-brands fa-facebook" /></a></li>
+                        <li><a href="https://www.whatsapp.com/" rel="noreferrer" target="_blank"><i class="fa-brands fa-whatsapp " /></a></li>
+                        <li><a href="https://www.twitter.com/" rel="noreferrer" target="_blank"><i class="fa-brands fa-twitter" /></a></li>
+                        <li><a href="https://www.youtube.com/" rel="noreferrer" target="_blank"><i class="fa-brands fa-youtube" /></a></li>
+                        <li><a href="https://www.tiktok.com/" rel="noreferrer" target="_blank"><i class="fa-brands fa-tiktok " /></a></li>
                     </ul>
                 </div>
                 <a href="/"><img src={bee} alt="beelogo" /></a>
