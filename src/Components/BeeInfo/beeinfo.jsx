@@ -7,8 +7,8 @@ class beeinfo extends Component {
     render() {
         return (
             <div className="beeinfo-main">
-                <div class="container">
-                    <table class="table w-50 mx-auto">
+                <div className="container">
+                    <table className="table w-50 mx-auto">
                         <thead>
                             <h1>Resultados de la Miel</h1>
                         </thead>

@@ -7,20 +7,25 @@
 
 #bee {
     max-width: 20%;
+    filter: invert(10%);
     height: auto;
 }
 
 .main {
     width: 100%;
-    background-color: rgb(255, 218, 21);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 10rem;
+    background-image: url("../../Resources/bgHex.png");
+    background-size: cover;
+
 
 }
 
 .login-main {
+    border: 1px solid rgb(170, 170, 170);
     border-radius: 1rem;
     width: auto;
     display: flex;
@@ -29,6 +34,7 @@
     flex-wrap: nowrap;
     flex-direction: column;
     background-color: white;
+
 }
 
 .login-main * {
@@ -107,15 +113,19 @@
     #bee {
         max-width: 30%;
         height: auto;
+        filter: invert(20%);
     }
 
     .main {
         width: 100%;
-        background-color: rgb(255, 218, 21);
+        background-color: rgb(255, 255, 255);
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         padding-bottom: 10rem;
+        background-image: url("../../Resources/bgHex.png");
+        background-size: 70%;
+
     }
 
     .login-main {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import befooterstyle from "./footer.css";
-import bee from "../../Resources/abeja.png";
+import bee from "../../Resources/abejaJIS.png";
 import 'font-awesome/css/font-awesome.min.css';
 
 

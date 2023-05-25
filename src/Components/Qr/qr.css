@@ -9,9 +9,12 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
+
+
 }
 
 .main-qr label {
+
     text-align: center;
     width: 40%;
     font-family: 'Inter';
@@ -54,6 +57,7 @@
     }
 
     .main-qr label {
+        margin-top: 10rem;
         text-align: center;
         width: 50%;
         font-family: 'Inter';

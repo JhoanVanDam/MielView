@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import bee from "../../Resources/Navbar (1).png";
+import bee from "../../Resources/abejaJIS.png";
 import estilos from "./navbar.css";
 class Navbar extends Component {
     style() {
@@ -9,14 +9,8 @@ class Navbar extends Component {
 
         return (
             <nav className="nav-bee">
-                <a href="/" id="a-hidden"><img src={bee} id="bean" alt="Logo" /></a>
-                <div className="" id="si">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">Miel App</a>
-                        </li>
-                    </ul>
-                </div>
+                <a href="/"><img src={bee} id="bean" alt="Logo" /></a>
+                <a href="/">Miel App</a>
             </nav>
         );
     }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import bee from "../../Resources/abeja.png";
+import bee from "../../Resources/abejaJIS.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
